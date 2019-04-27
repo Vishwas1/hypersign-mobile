@@ -20,6 +20,26 @@ npm uninstall -g quasar-cli; npm i -g quasar-cli@0.6.5
 quasar dev
 
 
+# Errors
+
+## Windows
+
+### Install v140 to build using the v140 build tools 
+
+Solution
+
+* Open cmd as Administrator
+* npm install --vs2015 -g windows-build-tools
+
+Note: It takes years to install. :D 
+
+### Quasar dev failed
+
+Solution
+
+* Downgraded npm to 5.5.0
+* This is temporary fix
+
 =======
 ## Test
 
